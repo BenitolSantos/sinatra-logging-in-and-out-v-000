@@ -10,6 +10,7 @@ class Helpers
 
   def self.is_logged_in?(session)
     !!session[:user_id] #easy way to turn it make it boolean
+    # this is a bang bang boolean 
   end
   #is_logged_in? should also accept the session hash as an argument.
   #This method should return true if the user_id is in the session hash and false if not.
